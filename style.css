@@ -1,0 +1,36 @@
+body
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background: linear-gradient(white, rgb(0, 0, 0), white);
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 400px;
+  height: 350px; 
+}
+#resultEmotionName ,#resultEmotionName2 
+{
+  color: white;
+}
+.emotionName
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+label {
+  font-size: 14px;
+  color: #6f2;
+  border-radius: 10px;
+  background-color: white;
+}
